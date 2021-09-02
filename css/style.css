@@ -1,0 +1,161 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #FFAEC0;
+  font-size: 5.625rem;
+  /* top right bottom left */
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #FCA3CC;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+h3 {
+  color: #FF7BB0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+a {
+  color: #F5ABC9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFE3ED;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #DEEDF0;
+  border-width: 7px;
+  width: 4%;
+  padding-top: 50px;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  /* Parent-element of top and bottom clouds. So css works according to this element! */
+  background-color: #FFE2E2;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #F9F9F9;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #FF75A0;
+  padding: 50px 0 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.webdev-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.management-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.info-about {
+  width: 20%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.profile-img {
+  padding-top: 50px;
+}
+
+.contact-me {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.button-style {
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  color: #FDEFEF;
+  font-family: Verdana;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 14px;
+  background-color: #F5ABC9;
+  text-shadow: 1px 1px 20px #F7D9D9;
+  border: solid #F6C6EA 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-style:hover {
+  background: #FF75A0;
+  border: solid #FFAEC0 0;
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
+  border-radius: 19px;
+  text-decoration: none;
+}
+
+.copyrights {
+  color: #F6C6EA;
+  font-size: 12px;
+  padding-top: 30px;
+}
+
+.footer-link {
+  font-size: 1em;
+  margin: 10px 20px;
+  color: #CD5D7D;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
